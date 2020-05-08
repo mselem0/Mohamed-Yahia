@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #eee;
+}
+h2 {font-size: 1.8em;}
+.center-block {display: block; margin: 20px auto;}
+tr, td, th {border: 1px solid #777; color: #444}
+table {margin: auto; background-color: #fff; margin-bottom: 20px}
+table th {font-weight: bold; font-size: 1.4em}
+table td {font-size: 1.2em;}
+.navbar {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+ul > li {
+    display: inline-block;
+    text-align: center;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+}
+ul li a:hover,
+ul li.active a {
+    color: yellow
+}
+
+/*Home*/
+.title {text-align: center; margin-top: 60px; text-decoration: underline;}
+.r-title {text-align: center; color: #333; margin-top: 20px; border-bottom: 1px dotted; padding-bottom: 20px;}
+
+/*Objectives*/
+.objectives {width: 80%; margin: auto;}
+.objectives h2 {margin-bottom: 50px; font-size: 2em;}
+.objectives details {margin: 50px;}
+.objectives details summary {font-weight: bold; text-decoration: underline; font-size: 1.5em}
+.objectives details p {line-height: 1.5; padding: 8px 0 0 30px; color: #555}
+
+
+/* Research */
+.research {line-height: 1.8em; font-size: 1.2em;}
+.research img {width: 400px; height: 200px; margin-left: 20px;}
+.research h2 {margin: 30px 0;}
+.research a {text-decoration: none; width: 1000px;}
+.research .r-body {padding: 20px 0 0 30px;}
+.research .r-body b {margin-bottom: 7px; margin-left: -5px; display: inline-block; border-bottom: 1px solid;}
+
+/* Abstract */
+.abstract {padding: 20px}
+.abstract p {
+    line-height: 2em;
+    color: #333;
+    font-size: 1.5em;
+}
